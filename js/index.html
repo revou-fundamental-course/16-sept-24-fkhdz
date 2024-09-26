@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="">
+            <img src="logo web.jpeg" alt="my-logo" id="logo-0"> </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="our-profile">My Skill</a></li>
+                    <li><a href="nav-portofilio">Portofolio</a></li>
+                    <li><a href="nav-massage">Massage Us</a></li>
+                </ul>
+             </nav>
+    </header>
+<section class="welcome">
+    <h1>Hi, Welcome to my website</h1>
+    <article>Hi, let me introduce myself, my name is Fiko Hilmy Dzaky, I'm usually called Fiko.   I am currently acting as a student at Semarang State University or commonly called UNNES. I have hobbies, namely singing and playing games, apart from that, I also like sleeping..</article>
+    <div class="holder-image"></div>
+</section>
+
+<!-- Profile -->
+ <section class="our-profile">
+    <h2>my skill</h2>
+    <div class="cities">
+        <div class="city">
+            <div class="circle logo-1"></div>
+            <p>HTML</p>
+        </div> 
+        <div class="city">
+            <div class="circle logo-2"></div>
+            <p>Js</p>
+            </div>
+            <div class="city">
+                <div class="circle logo-3"></div>
+                <p>CSS</p>
+            </div>
+    </div>
+ </section>
+
+ <!-- Massage -->
+  <section class="massage-sec">
+    <h2>Massage</h2>
+    <form id="massageform">
+        <label for="name">Nama</label>
+        <input type="text" id="name" name="name">
+
+        <label for="birthdate">Tanggal Lahir</label>
+        <input type="date" id="birthdate" name="birthdate">
+
+        <label for="gender">Jenis Kelamin</label>
+
+        <div>
+            <input type="radio" id="male" name="gender" value="Laki-laki">
+            <label for="male">Laki-laki</label>
+            <input type="radio" id="female" name="gender" value="Perempuan">
+            <label for="female">Perempuan</label>
+        </div>
+
+        <label for="massage">Pesan</label>
+        <textarea name="massage" id="massage"></textarea>
+
+        <button type="submit">Submit</button>
+
+        <div class="submitted-massage">
+            <p>Curent time: <span id="curenttime"></span></p>
+            <p>Nama: <span id="submittedname"></span></p>
+            <p>Tanggal Lahir: <span id="submittedbirthdate"></span></p>
+            <p>Jenis Kelamin: <span id="submittedgender"></span></p>
+            <p>Pesan: <span id="submittedmasssage"></span></p>
+        </div>
+    </form>
+  </section>
+
+  <footer>
+    <p>Create by Fiko Hilmy Dzaky</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
